@@ -1,11 +1,10 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Varun Sharma",
+    "label": "Builder",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "sharma.varunsh@gmail.com",
+    "url": "https://sharmavarun.in",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",

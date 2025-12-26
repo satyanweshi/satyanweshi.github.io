@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <i>तेन त्यक्तेन भुञ्जीथा</i> - Isha Upanishd
 
 profile:
   align: right
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a builder at heart with expertise in Computer Science, driven by curiosity to understand how the world works, why it is what it is today, and how can I contribute to build a better future. I am currently working to discover ways the emerging ecosystem of AI can be used to drive real change in enterprises.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I come from the city of [Kota, Rajasthan](https://en.wikipedia.org/wiki/Kota,_Rajasthan). I am driven by a fascination with human ingenuity—specifically, the scientific inquiry used to decode nature's mysteries and the artistic efforts to cultivate dance, music, and culture. Beyond my professional work in computer science, I am deeply interested in physics, philosophy, and dance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+This website is my attempt to curate my notes and views on a diverse set of topics. As I read and understand more about the world, I realize how little I know. While I do not claim to be an expert, I sometimes find myself in the awkward position of having to explain things as one. I use this space to organize my thoughts, which you can explore in the [blogs' section](/blog/) and [bookshelf](/books/).

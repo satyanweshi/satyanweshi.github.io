@@ -1,115 +1,90 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{sharma2016scope,
+  abbr={CLOUD},
+  title={SCoPe: A Decision System for Large Scale Container Provisioning Management},
+  author={Hegde, Aditya and Ghosh, Rahul and Mukherjee, Tridib and Sharma, Varun},
+  booktitle={IEEE 9th International Conference on Cloud Computing (CLOUD)},
+  year={2016},
+  url={https://ieeexplore.ieee.org/abstract/document/7820275},
+  abstract={Operating system (OS) containers provide a process level virtualization in a multi-tenant Cloud environment. Such containers are becoming increasingly popular in developer community as they facilitate fast development and delivery of enterprise class Cloud services. Furthermore, these containers share a common OS and hence, they have a low resource foot-print leading to reduced provisioning time. In this paper, we investigate such promise of containers while provisioning large scale 3-tier applications. First, through benchmarking, we observe that at very large scale, several application scaling factors (e.g., number of containers of an application provisioned in parallel, application load) and system state parameters (e.g., number of applications and containers running on a system) introduce variability in application provisioning time because of resource bottleneck in general, and specifically due to the OS process overhead. To address such variability, we propose a provisioning decision management system SCoPe that provides an application partitioning and provisioning strategy where we determine the maximum number of containers of every application that can be provisioned in parallel across physical machines, while meeting the service level agreement (SLA) on provisioning time and Cloud provider specific objectives (e.g., maximize consolidation of applications, minimize operating cost). This joint partitioning and provisioning problem is NP-hard and we propose a greedy heuristic solution. Using real data set and through extensive experiments, we demonstrate the performance of SCoPe for large scale container based application provisioning. Compared to other well-known heuristics, SCoPe can reduce the partitioning by 5x or more, while meeting SLAs.}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{sharma2015ccd,
+  abbr={ICWS},
+  title={A Scalable Approach for Context Based Complex Service Discovery},
+  author={Kunde, Shruti and Ghosh, Rahul and Mukherjee, Tridib and Hegde, Aditya and Sharma, Varun},
+  booktitle={IEEE International Conference on Web Services},
+  year={2015},
+  url={https://ieeexplore.ieee.org/abstract/document/7195611},
+  abstract={Discovering and matching services is an area that has been extensively explored. In this paper we envision services that advertise not only their functional parameters, but also highlight the Quality of Service(QoS) guarantees (or non-functional parameters) they can provide. As a result users can also incorporate QoS requirements along with the service request. Given the vast pool of services available today, leading to complex ontologies, the search space becomes extremely large, increasing the complexity of the search. We construct an overlay reflecting the relationships between the services, which facilitates the pruning of the entire search space. Additionally our system takes into consideration the user context which provides information pertaining to the users preferences. (eg: A user could be performance-savvy or functionally-cautious etc) We propose an algorithm CCD (Context based Complex service Discovery), which utilizes the inputs provided by the users and determines the similarity quotient for the functional and QoS parameters. Our experiments show that CCD significantly improves the scalability of the search by aggressively pruning the search space, achieved by visiting only relevant nodes. CCD further uses the requester context to improve the recommendations provided to the requester. We also compare CCD with two baseline approaches based on the depth-first search algorithm on a travel ontology, which was created using real service definitions from the Open Travel Alliance (OTA).}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{sharma2015pme,
+  abbr={ICSOC},
+  title={Personalized Messaging Engine: The Next Step in Employee Engagement},
+  author={Sharma, Varun and Tripathi, Abhishek and Shrivasta, Saurabh and Hegde, Aditya and Dasgupta, Koustuv},
+  booktitle={IEEE International Conference on Service-Oriented Computing},
+  year={2015},
+  url={https://link.springer.com/chapter/10.1007/978-3-662-48616-0_36},
+  abstract={Employers today are struggling to engage positively with their employees to reduce attrition and improve productivity. There are solutions in the market which are trying to solve the problem but they suffer from two critical issues. Firstly, the scope of the existing solutions is too narrow to capture each and every interaction happening within the company. Secondly, their learning from the employee behaviour is either non-existent or minimal at best. Personalized Messaging Engine (PME) is an attempt to provide end-to-end system to organizations for effective employee engagement. PME uses SOA principles to connect to each and every system through which employees engage with their employers. It uses the data aggregated from multiple systems to provide a hyper-personalized and dynamic experience to each employee. With the help of APIs, multiple systems can push data to PME and it then processes the data to send relevant pre-configured messages to the employees in the domain of Health, Wealth and Career. Additionally, PME uses several factors to prioritize messages for each and every employee. It uses a state-of-the-art learning engine to combine Subject Matter Experts opinion, Client Strategy, User Experiences and behaviour to find the messages which are most effective for the employees.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{singh2007optimal,
+  abbr={WoWMoM},
+  title={An Optimal Flow Assignment Framework for Heterogeneous Network Access},
+  author={Singh, Jatinder Pal Singh and Alpcan, Tansu and Agrawal, Piyush and Sharma, Varun},
+  booktitle={Proc. IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM'07)},
+  year={2007},
+  url={https://ieeexplore.ieee.org/abstract/document/4351715},
+  abstract={We consider a scenario where devices with multiple networking capabilities access networks with heterogeneous characteristics. In such a setting, we address the problem of efficient utilization of multiple access networks (wireless and/or wireline) by devices via optimal assignment of traffic flows with given utilities to different networks. We develop and analyze a device middleware functionality that monitors network characteristics and employs a Markov Decision Process (MDP) based control scheme that in conjunction with stochastic characterization of the available bit rate and delay of the networks generates an optimal policy for allocation of flows to different networks. The optimal policy maximizes, under available bit rate and delay constraints on the access networks, a discounted reward which is a function of the flow utilities. The flow assignment policy is periodically updated and is consulted by the flows to dynamically perform network selection during their lifetimes. We perform measurement tests to collect traces of available bit rate and delay characteristics on Ethernet and WLAN networks on a work day in a corporate work environment. We implement our flow assignment framework in ns-2 and simulate the system performance for a set of elastic video-like flows using the collected traces. We demonstrate that the MDP based flow assignment policy leads to significant enhancement in the QoS provisioning (lower packet delays and packet loss rates) for the flows, as compared to policies which do not perform dynamic flow assignment but statically allocate flows to different networks using heuristics like average available bit rate on the networks.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@patent{kunde2018method,
+  abbr={USPTO},
+  title={Method and system for recommending services to requestors},
+  author={Kunde, Shruti and Mukherjee, Tridib and Sharma, Varun and Hegde, Aditya},
+  year={2018},
+  month={aug},
+  number={US 10,051,064 B2},
+  assignee={Conduent Business Services, LLC},
+  note={US Patent 10,051,064},
+  url={https://patents.google.com/patent/US10051064B2/en},
+  abstract={A method and a system for recommending services to a requestor over a communication network. A request comprising one or more keywords and one or more service level agreements (SLAs), is received from a requestor computing device over the communication network, to process one or more tasks. One or more first services from one or more available services are selected based on the request. For a first service from the one or more first services, a first score and a second score is determined. The one or more first services are ranked based on the first score and the second score. A recommendation of the one or more first services is transmitted to the requestor based on the ranking.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@patent{mukherjee2020method,
+  abbr        = {USPTO},
+  title       = {Method and system for recommendation of a succession of one or more services for a service workflow},
+  author      = {Mukherjee, Tridib and Sharma, Varun and Hegde, Aditya and Kunde, Shruti},
+  year        = {2020},
+  month       = {jun},
+  number      = {US 10,678,874 B2},
+  assignee    = {Conduent Business Services, LLC},
+  note        = {US Patent 10,678,874},
+  url         = {https://patents.google.com/patent/US10678874B2/en},
+  abstract    = {A method and a system for recommendation of a succession of one or more services for a service workflow are disclosed. In an embodiment, a query is received to retrieve one or more services from a repository of a plurality of services stored in a hierarchical structure. The hierarchical structure comprises a plurality of hierarchical levels, each hierarchical level in the plurality of hierarchical levels comprising a set of nodes. Each node in the set of nodes in each hierarchical level, stores a first semantic information and a second semantic information. Further, the query is compared with the first semantic information and the second semantic information associated with a first node. The first node or the second node is selected based on the comparison. Further, the first set of services or the combination of services, associated with the selected node is recommended, as the service workflow, to the user.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@patent{ghosh2018method,
+  abbr        = {USPTO},
+  title       = {Method and system for managing delivery of analytics assets to users of organizations using operating system containers},
+  author      = {Ghosh, Rahul and Sharma, Varun and Ramanath, Ajith and Singh, Atul and Dasgupta, Koustuv},
+  year        = {2018},
+  month       = {feb},
+  number      = {US 2018/0052675 A1},
+  assignee    = {Conduent Business Services, LLC},
+  note        = {US Patent Application 15/237,996. Granted as US 10,241,777 B2 in 2019.},
+  url         = {https://patents.google.com/patent/US20180052675A1/en},
+  abstract    = {A method and a system are provided to manage analytics assets associated with at least one computer accessible to an organization using operating system (OS) containers. The method comprising receiving a request to process of a task on the user computing device. The method further select a set of analytics assets from a first category, based on at least one of a role of the user in the organization and a historical usage of the one or more analytics assets or a second category that corresponds to the user and are included in the container image associated with the user. The method further update the container image of the user, based on at least the selection of the set of analytics assets from the first category. The method further render the selected set of analytics assets through the updated container image on the user computing device of the user.}
 }
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+author = {Singh, Jatinder Pal Singh and Alpcan, Tansu and Agrawal, Piyush and Sharma, Varun},
+year = {2007},
+month = {07},
+pages = {1-12},
+title = {An Optimal Flow Assignment Framework for Heterogeneous Network Access},
+isbn = {978-1-4244-0993-8},
+journal = {Proc. IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks (WoWMoM'07)},
+doi = {10.1109/WOWMOM.2007.4351715}
 }

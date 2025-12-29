@@ -24,7 +24,47 @@
       "url": "https://auxoai.com",
       "startDate": "2023-11-20",
       "summary": "",
-      "highlights": ["Artificial Intelligence", "Product Management", "Product Engineering"]
+      "highlights": ["Artificial Intelligence", "Product Management", "Engineering Management", "Machine Learning", "Platform Development"]
+    },
+    {
+      "name": "Goldman Sachs",
+      "position": "Vice President, Data Science and Machine Learning",
+      "startDate": "2021-02-01",
+      "endDate": "2023-11-17",
+      "summary": "",
+      "highlights": ["Natural Language Processing", "Product Management", "Engineering Management", "Platform Development"]
+    },
+    {
+      "name": "Onco.com",
+      "position": "Chief Technology Officer",
+      "startDate": "2017-09-01",
+      "endDate": "2021-01-31",
+      "summary": "",
+      "highlights": ["Engineering Management", "Information Retrieval"]
+    },
+    {
+      "name": "Xerox Research Center India",
+      "position": "Senior Research Engineer",
+      "startDate": "2013-11-01",
+      "endDate": "2017-08-31",
+      "summary": "",
+      "highlights": ["Distributed Computing", "Engineering Management", "Research Engineer"]
+    },
+    {
+      "name": "Via.com",
+      "position": "Engineering Manager",
+      "startDate": "2011-04-01",
+      "endDate": "2013-10-30",
+      "summary": "",
+      "highlights": ["Online Travel", "Engineering Management", "Software Development"]
+    },
+    {
+      "name": "Nomura and Lehman Brothers",
+      "position": "Senior Software Engineer",
+      "startDate": "2007-07-01",
+      "endDate": "2012-06-30",
+      "summary": "",
+      "highlights": ["Mortgage Analytics", "FX Risk Analytics", "Software Development"]
     }
   ],
   // "volunteer": [
@@ -114,7 +154,7 @@
     },
     {
       "name": "A Scalable Approach for Context Based Complex Service Discovery",
-      "publisher": "2015 IEEE International Conference on Web Services",
+      "publisher": "IEEE International Conference on Web Services (ICWS)",
       "releaseDate": "2015",
       "url": "https://ieeexplore.ieee.org/abstract/document/7195611",
       "summary": "Discovering and matching services is an area that has been extensively explored. In this paper we envision services that advertise not only their functional parameters, but also highlight the Quality of Service(QoS) guarantees (or non-functional parameters) they can provide. As a result users can also incorporate QoS requirements along with the service request. Given the vast pool of services available today, leading to complex ontologies, the search space becomes extremely large, increasing the complexity of the search. We construct an overlay reflecting the relationships between the services, which facilitates the pruning of the entire search space. Additionally our system takes into consideration the user context which provides information pertaining to the users preferences. (eg: A user could be performance-savvy or functionally-cautious etc) We propose an algorithm CCD (Context based Complex service Discovery), which utilizes the inputs provided by the users and determines the similarity quotient for the functional and QoS parameters. Our experiments show that CCD significantly improves the scalability of the search by aggressively pruning the search space, achieved by visiting only relevant nodes. CCD further uses the requester context to improve the recommendations provided to the requester. We also compare CCD with two baseline approaches based on the depth-first search algorithm on a travel ontology, which was created using real service definitions from the Open Travel Alliance (OTA)."
@@ -125,6 +165,42 @@
       "releaseDate": "2015",
       "url": "https://link.springer.com/chapter/10.1007/978-3-662-48616-0_36",
       "summary": "Employers today are struggling to engage positively with their employees to reduce attrition and improve productivity. There are solutions in the market which are trying to solve the problem but they suffer from two critical issues. Firstly, the scope of the existing solutions is too narrow to capture each and every interaction happening within the company. Secondly, their learning from the employee behaviour is either non-existent or minimal at best. Personalized Messaging Engine (PME) is an attempt to provide end-to-end system to organizations for effective employee engagement. PME uses SOA principles to connect to each and every system through which employees engage with their employers. It uses the data aggregated from multiple systems to provide a hyper-personalized and dynamic experience to each employee. With the help of APIs, multiple systems can push data to PME and it then processes the data to send relevant pre-configured messages to the employees in the domain of Health, Wealth and Career. Additionally, PME uses several factors to prioritize messages for each and every employee. It uses a state-of-the-art learning engine to combine Subject Matter Experts opinion, Client Strategy, User Experiences and behaviour to find the messages which are most effective for the employees."
+    },
+    {
+      "name": "An Optimal Flow Assignment Framework for Heterogeneous Network Access",
+      "publisher": "IEEE International Symposium on a World of Wireless, Mobile and Multimedia Networks",
+      "releaseDate": "2007",
+      "url": "https://ieeexplore.ieee.org/abstract/document/4351715",
+      "summary": "We consider a scenario where devices with multiple networking capabilities access networks with heterogeneous characteristics. In such a setting, we address the problem of efficient utilization of multiple access networks (wireless and/or wireline) by devices via optimal assignment of traffic flows with given utilities to different networks. We develop and analyze a device middleware functionality that monitors network characteristics and employs a Markov Decision Process (MDP) based control scheme that in conjunction with stochastic characterization of the available bit rate and delay of the networks generates an optimal policy for allocation of flows to different networks. The optimal policy maximizes, under available bit rate and delay constraints on the access networks, a discounted reward which is a function of the flow utilities. The flow assignment policy is periodically updated and is consulted by the flows to dynamically perform network selection during their lifetimes. We perform measurement tests to collect traces of available bit rate and delay characteristics on Ethernet and WLAN networks on a work day in a corporate work environment. We implement our flow assignment framework in ns-2 and simulate the system performance for a set of elastic video-like flows using the collected traces. We demonstrate that the MDP based flow assignment policy leads to significant enhancement in the QoS provisioning (lower packet delays and packet loss rates) for the flows, as compared to policies which do not perform dynamic flow assignment but statically allocate flows to different networks using heuristics like average available bit rate on the networks."
+    }
+  ],
+  "patents": [
+    {
+      "name": "Method and system for recommending services to requestors",
+      "releaseDate":"2018",
+      "number":"US 10,051,064 B2",
+      // assignee={Conduent Business Services, LLC},
+      // note={US Patent 10,051,064},
+      "url": "https://patents.google.com/patent/US10051064B2/en",
+      "summary": "A method and a system for recommending services to a requestor over a communication network. A request comprising one or more keywords and one or more service level agreements (SLAs), is received from a requestor computing device over the communication network, to process one or more tasks. One or more first services from one or more available services are selected based on the request. For a first service from the one or more first services, a first score and a second score is determined. The one or more first services are ranked based on the first score and the second score. A recommendation of the one or more first services is transmitted to the requestor based on the ranking."
+    },
+    {
+      "name": "Method and system for recommendation of a succession of one or more services for a service workflow",
+      "releaseDate": "2020",
+      "number": "US 10,678,874 B2",
+      // "assignee": "Conduent Business Services, LLC",
+      // "note": "US Patent 10,678,874",
+      "url": "https://patents.google.com/patent/US10678874B2/en",
+      "summary": "A method and a system for recommendation of a succession of one or more services for a service workflow are disclosed. In an embodiment, a query is received to retrieve one or more services from a repository of a plurality of services stored in a hierarchical structure. The hierarchical structure comprises a plurality of hierarchical levels, each hierarchical level in the plurality of hierarchical levels comprising a set of nodes. Each node in the set of nodes in each hierarchical level, stores a first semantic information and a second semantic information. Further, the query is compared with the first semantic information and the second semantic information associated with a first node. The first node or the second node is selected based on the comparison. Further, the first set of services or the combination of services, associated with the selected node is recommended, as the service workflow, to the user."
+    },
+    {
+      "name": "Method and system for managing delivery of analytics assets to users of organizations using operating system containers",
+      "releaseDate": "2018",
+      "number": "US 2018/0052675 A1",
+      // "assignee": "Conduent Business Services, LLC",
+      // "note": "US Patent Application 15/237,996. Granted as US 10,241,777 B2 in 2019.",
+      "url": "https://patents.google.com/patent/US20180052675A1/en",
+      "summary": "A method and a system are provided to manage analytics assets associated with at least one computer accessible to an organization using operating system (OS) containers. The method comprising receiving a request to process of a task on the user computing device. The method further select a set of analytics assets from a first category, based on at least one of a role of the user in the organization and a historical usage of the one or more analytics assets or a second category that corresponds to the user and are included in the container image associated with the user. The method further update the container image of the user, based on at least the selection of the set of analytics assets from the first category. The method further render the selected set of analytics assets through the updated container image on the user computing device of the user."
     }
   ],
   "skills": [
@@ -140,12 +216,22 @@
     },
     {
       "name": "Machine Learning",
-      "level": "Beginner",
+      "level": "Intermediate",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Generative AI",
         "Natural Language Processing",
         "MLOps"
+      ]
+    },
+    {
+      "name": "Engineering Management",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Product Development",
+        "Team Management",
+        "Cross region collaboration"
       ]
     }
   ],

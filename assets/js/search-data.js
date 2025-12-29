@@ -48,11 +48,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/ai-takeaways-2025/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-banaras-city-of-light",
+          title: 'Banaras City of Light',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/books/banaras_city_of_light/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",

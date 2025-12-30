@@ -37,11 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-learnings-from-my-reading-and-my-work-in-ai-in-2025",
+        },{id: "post-learnings-in-2025",
         
-          title: "Learnings from my reading and my work in AI in 2025",
+          title: "Learnings in 2025",
         
-        description: "this is what included plotly.js code could look like",
+        description: "Notes and takeaways from readings and explorations in 2025",
         section: "Posts",
         handler: () => {
           

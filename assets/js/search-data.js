@@ -37,7 +37,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-learnings-in-2025",
+        },{id: "post-agentic-coding-improving-code-coverage",
+        
+          title: "Agentic Coding - Improving Code Coverage",
+        
+        description: "OpenCode Agentic Coding - Improving Code Coverage",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/agentic-coding-improving-coverage/";
+          
+        },
+      },{id: "post-agentic-coding-personality-of-language-models",
+        
+          title: "Agentic Coding - Personality of Language Models",
+        
+        description: "OpenCode Agentic Coding - Personality of Language Models",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/personality-of-models/";
+          
+        },
+      },{id: "post-notes-on-agentic-coding-opencode",
+        
+          title: "Notes on agentic coding - OpenCode",
+        
+        description: "OpenCode - Learning agentic coding",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/coding-agents-opencode/";
+          
+        },
+      },{id: "post-learnings-in-2025",
         
           title: "Learnings in 2025",
         
@@ -53,6 +86,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/banaras_city_of_light/";
+            },},{id: "books-nehru-the-debates-that-defined-india",
+          title: 'Nehru The Debates that Defined India',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/nehru_debates_that%20defined_india/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",

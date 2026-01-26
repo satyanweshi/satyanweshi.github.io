@@ -12,7 +12,7 @@ started: 2025-11-25
 released: 1982
 stars: 5
 # goodreads_review: 3311742
-status: Reading
+status: Finished
 ---
 
 *Banaras - City of Light* has been on my reading list for quite some time. In the last few years, I have read several books on Indian history and every book has been an eye opener in terms of understanding my own inheritance and the origins of our ancient civilization. Several books or article that I have read have referred to *Banaras - City of Light*. That is why I was eager to read this book and it has been an amazing learning experience.

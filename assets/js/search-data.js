@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/books/";
           },
-        },{id: "post-agentic-coding-improving-code-coverage",
-        
-          title: "Agentic Coding - Improving Code Coverage",
-        
-        description: "OpenCode Agentic Coding - Improving Code Coverage",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/agentic-coding-improving-coverage/";
-          
-        },
-      },{id: "post-good-posts-feb-2026",
+        },{id: "post-good-posts-feb-2026",
         
           title: "Good Posts - Feb 2026",
         
@@ -57,6 +46,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/good-posts-feb-2026/";
+          
+        },
+      },{id: "post-agentic-coding-improving-code-coverage",
+        
+          title: "Agentic Coding - Improving Code Coverage",
+        
+        description: "OpenCode Agentic Coding - Improving Code Coverage",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/agentic-coding-improving-coverage/";
           
         },
       },{id: "post-agentic-coding-personality-of-language-models",

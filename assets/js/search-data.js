@@ -48,6 +48,17 @@ ninja.data = [{
             window.location.href = "/blog/2026/agentic-coding-improving-coverage/";
           
         },
+      },{id: "post-good-posts-feb-2026",
+        
+          title: "Good Posts - Feb 2026",
+        
+        description: "Articles worth reading",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/good-posts-feb-2026/";
+          
+        },
       },{id: "post-agentic-coding-personality-of-language-models",
         
           title: "Agentic Coding - Personality of Language Models",

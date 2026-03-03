@@ -97,11 +97,26 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/banaras_city_of_light/";
+            },},{id: "books-if-you-could-see-me-now",
+          title: 'If You Could See Me Now',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/if_you_could_see_me_now/";
             },},{id: "books-nehru-the-debates-that-defined-india",
           title: 'Nehru The Debates that Defined India',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/nehru_debates_that%20defined_india/";
+            },},{id: "books-the-book-of-why",
+          title: 'The Book Of Why',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_book_of_why/";
+            },},{id: "books-the-living-mountain",
+          title: 'The Living Mountain',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_living_mountain/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",

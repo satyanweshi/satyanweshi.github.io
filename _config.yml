@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Varun Sharma # the website title (if blank, full name will be used instead)
 first_name: Varun
 middle_name: 
 last_name: Sharma
 contact_note: >
   The best way to reach me is via LinkedIn.``
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Blog, Book Reviews, CV of Varun Sharma
 footer_text: 
 keywords: varun-sharma, generative-ai, systems-thinking, software-architecture, software-engineering, cloud-computing # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -38,6 +38,11 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
+
+feed:
+  collections:
+    books:
+      path: "/books.xml"
 
 # -----------------------------------------------------------------------------
 # Layout

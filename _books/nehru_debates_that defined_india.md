@@ -8,11 +8,11 @@ isbn: 9356294135 # use ISBN to fetch cover (if no `olid` is provided, dashes are
 categories: jawaharlal-nehru muhammed-ali-jinnah indian-freedom-struggle muhammed-iqbal sardar-vallabhbhai-patel syama-prasad-mookherjee india
 buy_link: https://www.amazon.in/Nehru-Debates-that-Defined-India/dp/9356294135/
 started: 2026-01-05
-# finished: 2025-12-30
+finished: 2026-02-16
 released: 2022
-stars: 
+stars: 4
 # goodreads_review: 3311742
-status: Reading
+status: Finished
 ---
 
 As an amateur student of history, I have always tried to better understand the events around the time India gained freedom from Britain. Given the noise today and binary interpretation of events, it becomes difficult to appreciate the role played by individuals and understand the currents of fate that led to how India gained freedom and was divided into 2 countries.
@@ -29,3 +29,5 @@ I am no expert and therefore, cannot comment much on the exchange between Nehru 
 The <u>letter exchange between Nehru and Jinnah</u> are fascinating. Those exchanges are a masterclass in talking past each other. It would be unfair for me to comment on the larger equation that both had with each other. However, from the letters, one gets the feeling that neither had the intention to meet and resolve any issues. Given that Nehru was the one who initiated this discussion, I am curious to know what he had in mind. Since the letters refer to the exchange between Jinnah and Gandhi, an appendix with those letters would have been very helpful in getting more context on the ongoing debate. Both individuals seem to operate with a different perspective. While Jinnah's main concerns were around the Muslim sovereignity in India, Nehru had more grandiose ideas around unemployment, poverty and world war in mind.
 
 <u>Exchanges between Nehru and Patel</u> left me confused. The "insights" that I have learned from social media tells me that there were differences in their style of working. However, they worked together for a long time based on their shared values and priciples defined by Gandhi. The first letter in the book is from Nehru to Patel and almost feels like registering an official note of hurt feelings. Given that we are talking about two adults who also happen to know each other since so long, I don't understand why Nehru could not have just walked up to Patel and talk his heart out. In fact, Patel says the same thing in his reply to Nehru's letter. Maybe those were different times where communicating via letters was the preferred mode of communication. Patel does demonstrates an amazing foresight on how India should prepare for handling relations with China. His articulation on the steps that India needs to take is quite comprehensive. As an engineer, I look up to those rare members who can break down a plan into concrete steps. Reading his letters definitely gave me the impression that I am reading a letter from someone who knows how things work. Also, the book does not have Nehru's response to Patel's letter on the China policy. Not sure if there wasn't one or the authors did not include it.
+
+Don't think anybody could have guessed the longevity and imapct of the <u>Parliamentary debates on the First Amendment</u>. The oratorial skills of Nehru are evenly matched by the inspired oppostion from Mookherjee. Given Nehru's comments on the 2-page publications, he would have been positively horrified by the influence of social media. He may have tried to bring an amendment to control the content that is shared on social media. The speech by Mookherjee is brilliant with its point-by-point rebuttal of the arguments put forth by Nehru. I am not sure if a debate like this has happened in the recent past. We do see passioned speeches from our leaders but a great combination of rhetoric and substance is a rarity.

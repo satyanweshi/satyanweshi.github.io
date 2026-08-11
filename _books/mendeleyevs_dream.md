@@ -1,7 +1,7 @@
 ---
 layout: book-review
 title: Medeleyev's Dream The Quest For The Elements
-author: Paul Srathern
+author: Paul Strathern
 cover: assets/img/book_covers/mendeleev_dream.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 978-1643130699 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)

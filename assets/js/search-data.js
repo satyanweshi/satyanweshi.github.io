@@ -102,16 +102,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/if_you_could_see_me_now/";
+            },},{id: "books-medeleyev-39-s-dream-the-quest-for-the-elements",
+          title: 'Medeleyev&amp;#39;s Dream The Quest For The Elements',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/mendeleyevs_dream/";
             },},{id: "books-nehru-the-debates-that-defined-india",
           title: 'Nehru The Debates that Defined India',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/nehru_debates_that%20defined_india/";
-            },},{id: "books-the-book-of-why",
-          title: 'The Book Of Why',
+            },},{id: "books-रामराज्य",
+          title: 'रामराज्य',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_book_of_why/";
+              window.location.href = "/books/ramrajya/";
             },},{id: "books-the-living-mountain",
           title: 'The Living Mountain',
           description: "",
